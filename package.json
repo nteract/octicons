@@ -1,0 +1,27 @@
+{
+  "name": "@nteract/octicons",
+  "version": "2.0.0",
+  "description": "octicon react components, styled for use within nteract packages",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "nteractDesktop": "src/index.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "octicons",
+    "react"
+  ],
+  "author": "Kyle Kelley <rgbkrk@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3"
+  }
+}
