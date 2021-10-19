@@ -8,6 +8,10 @@
   "scripts": {
     "build": "tsc -b"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nteract/octicons.git"
+  },
   "peerDependencies": {
     "react": "^16.3.2"
   },
